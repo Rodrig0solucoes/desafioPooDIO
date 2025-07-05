@@ -43,6 +43,7 @@ public class Main {
         System.out.println("progredi********");
         System.out.println("Conteudos Inscritos Rodrigo" + devRodrigo.getConteudosInscritos());
         System.out.println("Conteudos Concluidos Rodrigo" + devRodrigo.getConteudosConcluidos());
+        System.out.println("XP: " + devRodrigo.calcularXp());
 
         System.out.println("///////****////////");
 
@@ -54,6 +55,7 @@ public class Main {
         System.out.println("progredi********");
         System.out.println("Conteudos Inscritos Luana" + devLuana.getConteudosInscritos());
         System.out.println("Conteudos Concluidos Luana" + devLuana.getConteudosConcluidos());
+        System.out.println("XP: " + devLuana.calcularXp());
 
 
     }
